@@ -5,17 +5,16 @@
 </head>
 <body>
 	<form action="#" method="post">
-		<lable for="name">Name</lable>
+		<label for="name">Name</label>
 		<input type="Text" id="name" placeholder="Name" required><br>
 
 		<label for="email">Email</label>
 		<input type="Email" id="email" placeholder="Email" required><br>
-
-		<label for="gender_m, gender_f">Gender</label><br>
-        <input type="Radio" id="gender_m, gender_f" required>
-        <label for="html">Male</label><br>
-        <input type="Radio" id="gender_m, gender_f" required>
-        <label for="css">Female</label><br>	
+        <label>Gender</label><br>
+		<label for="gender_m">Male</label>
+        <input type="Radio" id="gender_m" name="male" required><br>
+        <label for="gender_f">Female</label>
+        <input type="Radio" id="gender_f" name="female" required><br>
 		
 		<label for="cars">Car Brands</label>
 		<select id="cars" placeholder="--Please choose an option--"required>
